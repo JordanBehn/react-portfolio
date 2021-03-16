@@ -9,6 +9,8 @@ import Grid from "@material-ui/core/grid";
 import About from "../About";
 import Work from "../Work";
 import Contact from "../Contact";
+import Resume from '../../Assets/JordanBehnResume.pdf'
+
 
 function App() {
   return (
@@ -23,7 +25,7 @@ function App() {
                 <About />
               </Grid>
               <Grid item>
-                <Contact />
+                <Contact resume={Resume}/>
               </Grid>
             </Grid>
             <br></br>
